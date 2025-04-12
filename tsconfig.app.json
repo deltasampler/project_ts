@@ -1,0 +1,43 @@
+{
+    "compilerOptions": {
+        "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+        "target": "ES2020",
+        "useDefineForClassFields": true,
+        "module": "ESNext",
+        "lib": ["ES2020", "DOM", "DOM.Iterable"],
+        "skipLibCheck": true,
+        "paths": {
+            "react": ["./node_modules/preact/compat/"],
+            "react-dom": ["./node_modules/preact/compat/"],
+            "@cl/*": ["./modules/cl/source/*"],
+            "@driving/*": ["./modules/driving/source/*"],
+            "@engine/*": ["./modules/engine/source/*"],
+            "@gui/*": ["./modules/gui/source/*"],
+            "@panel_templater/*": ["./modules/panel_templater/source/*"],
+            "@pixel_sandbox/*": ["./modules/pixel_sandbox/source/*"],
+            "@plant_gen/*": ["./modules/plant_gen/source/*"],
+            "@ray_marcher/*": ["./modules/ray_marcher/source/*"],
+            "@simple_demos/*": ["./modules/simple_demos/source/*"],
+            "@square/*": ["./modules/square/source/*"],
+            "@turmite/*": ["./modules/turmite/source/*"]
+        },
+
+        /* Bundler mode */
+        "moduleResolution": "bundler",
+        "allowImportingTsExtensions": true,
+        "isolatedModules": true,
+        "moduleDetection": "force",
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "jsxImportSource": "preact",
+
+        /* Linting */
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUncheckedSideEffectImports": true,
+        "strictPropertyInitialization": false
+    },
+    "include": ["source"]
+}
