@@ -11,6 +11,7 @@ const commands = [
     "git clone git@deltasampler:deltasampler/ray_marcher.git",
     "git clone git@deltasampler:deltasampler/simple_demos.git",
     "git clone git@deltasampler:deltasampler/square.git",
+    "git clone git@deltasampler:deltasampler/tetris.git",
     "git clone git@deltasampler:deltasampler/turmite.git"
 ];
 

@@ -19,6 +19,7 @@
             "@ray_marcher/*": ["./modules/ray_marcher/source/*"],
             "@simple_demos/*": ["./modules/simple_demos/source/*"],
             "@square/*": ["./modules/square/source/*"],
+            "@tetris/*": ["./modules/tetris/source/*"],
             "@turmite/*": ["./modules/turmite/source/*"]
         },
 

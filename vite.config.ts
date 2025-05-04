@@ -16,6 +16,7 @@ export default defineConfig({
             '@ray_marcher': path.resolve(__dirname, "./modules/ray_marcher/source"),
             '@simple_demos': path.resolve(__dirname, "./modules/simple_demos/source"),
             '@square': path.resolve(__dirname, "./modules/square/source"),
+            '@tetris': path.resolve(__dirname, "./modules/tetris/source"),
             '@turmite': path.resolve(__dirname, "./modules/turmite/source")
         }
     }
