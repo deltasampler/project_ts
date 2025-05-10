@@ -14,6 +14,7 @@
             "@engine/*": ["./modules/engine/source/*"],
             "@gravitation/*": ["./modules/gravitation/source/*"],
             "@gui/*": ["./modules/gui/source/*"],
+            "@model_viewer/*": ["./modules/model_viewer/source/*"],
             "@panel_templater/*": ["./modules/panel_templater/source/*"],
             "@pixel_sandbox/*": ["./modules/pixel_sandbox/source/*"],
             "@plant_gen/*": ["./modules/plant_gen/source/*"],

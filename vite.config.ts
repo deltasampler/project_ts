@@ -11,6 +11,7 @@ export default defineConfig({
             '@engine': path.resolve(__dirname, "./modules/engine/source"),
             '@gravitation': path.resolve(__dirname, "./modules/gravitation/source"),
             '@gui': path.resolve(__dirname, "./modules/gui/source"),
+            '@model_viewer': path.resolve(__dirname, "./modules/model_viewer/source"),
             '@panel_templater': path.resolve(__dirname, "./modules/panel_templater/source"),
             '@pixel_sandbox': path.resolve(__dirname, "./modules/pixel_sandbox/source"),
             '@plant_gen': path.resolve(__dirname, "./modules/plant_gen/source"),
