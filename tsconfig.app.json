@@ -12,6 +12,7 @@
             "@cl/*": ["./modules/cl/source/*"],
             "@driving/*": ["./modules/driving/source/*"],
             "@engine/*": ["./modules/engine/source/*"],
+            "@gravitation/*": ["./modules/gravitation/source/*"],
             "@gui/*": ["./modules/gui/source/*"],
             "@panel_templater/*": ["./modules/panel_templater/source/*"],
             "@pixel_sandbox/*": ["./modules/pixel_sandbox/source/*"],

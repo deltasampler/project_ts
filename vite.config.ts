@@ -9,6 +9,7 @@ export default defineConfig({
             '@cl': path.resolve(__dirname, "./modules/cl/source"),
             '@driving': path.resolve(__dirname, "./modules/driving/source"),
             '@engine': path.resolve(__dirname, "./modules/engine/source"),
+            '@gravitation': path.resolve(__dirname, "./modules/gravitation/source"),
             '@gui': path.resolve(__dirname, "./modules/gui/source"),
             '@panel_templater': path.resolve(__dirname, "./modules/panel_templater/source"),
             '@pixel_sandbox': path.resolve(__dirname, "./modules/pixel_sandbox/source"),
