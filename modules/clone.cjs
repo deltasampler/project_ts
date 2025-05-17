@@ -4,7 +4,7 @@ const commands = [
     "git clone git@deltasampler:deltasampler/cl_ts.git cl",
     "git clone git@deltasampler:deltasampler/driving.git",
     "git clone git@deltasampler:deltasampler/engine_ts.git engine",
-    "git clone git@deltasampler:deltasampler/gravitation.git gui",
+    "git clone git@deltasampler:deltasampler/gravitation.git gravitation",
     "git clone git@deltasampler:deltasampler/gui_ts.git gui",
     "git clone git@deltasampler:deltasampler/model_viewer.git",
     "git clone git@deltasampler:deltasampler/panel_templater.git",
