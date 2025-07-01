@@ -6,6 +6,7 @@ export default defineConfig({
     plugins: [preact()],
     resolve: {
         alias: {
+            '@block_world': path.resolve(__dirname, "./modules/block_world/source"),
             '@cl': path.resolve(__dirname, "./modules/cl/source"),
             '@driving': path.resolve(__dirname, "./modules/driving/source"),
             '@engine': path.resolve(__dirname, "./modules/engine/source"),

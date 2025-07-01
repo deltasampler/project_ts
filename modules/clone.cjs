@@ -1,6 +1,7 @@
 const {execSync} = require("child_process");
 
 const commands = [
+    "git clone git@deltasampler:deltasampler/block_world.git cl",
     "git clone git@deltasampler:deltasampler/cl_ts.git cl",
     "git clone git@deltasampler:deltasampler/driving.git",
     "git clone git@deltasampler:deltasampler/engine_ts.git engine",

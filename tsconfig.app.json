@@ -9,6 +9,7 @@
         "paths": {
             "react": ["./node_modules/preact/compat/"],
             "react-dom": ["./node_modules/preact/compat/"],
+            "@block_world/*": ["./modules/block_world/source/*"],
             "@cl/*": ["./modules/cl/source/*"],
             "@driving/*": ["./modules/driving/source/*"],
             "@engine/*": ["./modules/engine/source/*"],
